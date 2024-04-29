@@ -1,0 +1,21 @@
+.alineamientoTitulo {
+  text-align: center;
+}
+
+.fondo {
+  background-image: url("https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?cs=srgb&dl=pexels-%C3%A1kos-szab%C3%B3-440731.jpg&fm=jpg&_gl=1*9nwo6s*_ga*NDAyODg3MDE3LjE3MTI1OTc2NDA.*_ga_8JE65Q40S6*MTcxMjU5NzYzOS4xLjEuMTcxMjU5Nzg0Ny4wLjAuMA..");
+  background-size: cover;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 310px);
+  grid-template-rows: auto;
+  gap: 120px;
+}
+
+.fotoDinamica {
+  width: 100%;
+  aspect-ratio: 1 / 2;
+  object-fit: cover;
+}
